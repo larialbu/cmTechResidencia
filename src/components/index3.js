@@ -1,6 +1,8 @@
 import styles3 from './index3.module.css'
 import{Link} from 'react-router-dom';
 import { FaInstagram, FaFacebook, FaGoogle, FaGithub,FaWhatsapp,FaUserCircle,FaRegUserCircle } from 'react-icons/fa' ;
+import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
 
 function Home(){
     return(
@@ -34,10 +36,11 @@ function Home(){
                             Prontos para o futuro agora? Vem com a CMTECH!
                     </p>
                     <br /><br />
-                    <div className={styles3.input3}>
-                        <input className={styles3.input3} type="email" placeholder="Endereço de email"/>
+
+                        <TextField id="outlined-basic" label="Endereço de Email" variant="outlined" />
+
                         <button className={styles3.button3}>Ver Mais</button>
-                    </div>
+
 <br /><br /><br /><br />
                     <div className={styles3.t3}>
                             <a><FaFacebook className={styles3.icons3}/></a>
