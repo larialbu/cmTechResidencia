@@ -13,7 +13,7 @@
     color: rgb(54, 187, 171);
 }
 
-body{
+.body{
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -89,7 +89,7 @@ body{
     font-size: 17px;
 }
 
-a{
+.a{
     color: var(--default-color);
     text-decoration: none;
     align-items: center;
