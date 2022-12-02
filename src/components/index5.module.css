@@ -1,0 +1,18 @@
+.body{
+    display: block;
+}
+.th_td {
+background-color: #36bbab;
+text-align: center;
+
+}
+.button {
+border-radius: 110px;
+background-color: rgb(54, 187, 171);
+height: 35px;
+}
+
+.table {
+height: 150px ;
+padding-left: 300px;
+}
